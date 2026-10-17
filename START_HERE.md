@@ -4,7 +4,7 @@ Tell your local coding agent: “Read START_HERE.md and execute the currently as
 
 1. Read AGENTS.md, DEVELOPER_WAY.md, SECURITY_AND_SCOPE.md, docs/OPERATOR_SOP.md, docs/EVIDENCE_RULES.md, and missions/q0/README.md.
 2. Review OWNER_CONFIRMATIONS.md. Static Q0 inventory can proceed. Do not run long artifact hashing or time-series telemetry until applicable consent is recorded.
-3. Create branch lab/barry/q0/<run-id>. Never commit to main.
+3. Never push or commit directly to main. Use a public fork by default: fork `AnonymousNomad/covert-external-qualification-lab`, clone your fork, and create `lab/barry/q0/<run-id>`. Push the run branch to your fork and open a PR back to `AnonymousNomad/covert-external-qualification-lab:main`. Do not request collaborator access for Q0. If an owner later grants upstream branch write access, the same branch-and-PR rule still applies.
 4. On Phoenix, run ./scripts/qualify-machine --node phoenix; note RUN_DIR. Then ./scripts/inventory-models --node phoenix --run-dir <RUN_DIR>. Repeat on Atlas with --node atlas.
 5. Only known cache roots and exact extra --root paths are scanned. No whole-disk scan, download, install, model load, or inference.
 6. If consent for hashing is confirmed before the inventory, add --hash to inventory-models. It reads each artifact fully and may take a long time. If you already made a metadata-only run, do not rerun into that run directory: create a new Q0 run with qualify-machine, then inventory-models --hash. Keep both runs.
