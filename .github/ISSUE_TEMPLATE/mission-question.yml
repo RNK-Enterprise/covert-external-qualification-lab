@@ -1,0 +1,17 @@
+name: Mission question
+description: Bounded question about assigned work
+title: "[mission-question] "
+labels: ["mission-question"]
+body:
+  - type: input
+    id: mission
+    attributes:
+      label: Mission and run ID
+    validations:
+      required: true
+  - type: textarea
+    id: blocker
+    attributes:
+      label: Exact sanitized blocker; no secrets or arbitrary model output
+    validations:
+      required: true

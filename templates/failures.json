@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "failures": [
+    {
+      "failure_id": "",
+      "code": "",
+      "stage": "",
+      "first_observed_at_utc": "",
+      "retry_count": 0,
+      "details_path": null,
+      "disposition": ""
+    }
+  ]
+}

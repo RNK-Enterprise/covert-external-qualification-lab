@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "mission_id": "",
+  "status": "TEMPLATE",
+  "base_sha256": null,
+  "task_sha256": null,
+  "allowed_effects": [],
+  "budget": {
+    "wall_clock_seconds": null,
+    "token_limit": null
+  },
+  "verifier_command": null,
+  "success_criteria": [],
+  "failure_criteria": [],
+  "cleanup": []
+}

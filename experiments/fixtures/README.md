@@ -1,0 +1,1 @@
+Q0 has no inference fixture. Later fixtures are disposable, pinned, isolated from Covert source.

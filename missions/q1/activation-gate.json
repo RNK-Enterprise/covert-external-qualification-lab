@@ -1,0 +1,14 @@
+{
+  "phase": "Q1",
+  "status": "GATED",
+  "activated": false,
+  "requirements": [
+    "canonical UI",
+    "T3.1 packaged owner-device lifecycle",
+    "T3 AgentLoop",
+    "disclosure-safe Covert package",
+    "egress resolved",
+    "exact model/battery/mission/verifier",
+    "admission/telemetry/cleanup"
+  ]
+}

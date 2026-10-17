@@ -1,0 +1,22 @@
+{
+  "pack_id": "COVERT_HEAVY_MODEL_QUALIFICATION_PACK",
+  "status": "SPECIFICATION_ONLY",
+  "revision": "TEMPLATE",
+  "contains_weights": false,
+  "tiers": [
+    "CPU_RAM_HEAVY",
+    "VRAM_16_GB",
+    "VRAM_24_GB",
+    "VRAM_32_PLUS_GB"
+  ],
+  "required": [
+    "artifact/source",
+    "integrity",
+    "runtime/context",
+    "admission",
+    "battery/missions",
+    "telemetry/evidence",
+    "failure",
+    "cleanup"
+  ]
+}

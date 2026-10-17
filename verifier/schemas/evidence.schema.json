@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "External lab evidence",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "run_id",
+    "phase",
+    "node_id",
+    "status",
+    "captured_at_utc",
+    "artifacts",
+    "verification"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "run_id": {
+      "type": "string"
+    },
+    "phase": {
+      "enum": [
+        "Q0",
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ]
+    },
+    "node_id": {
+      "enum": [
+        "phoenix",
+        "atlas",
+        "owner-laptop",
+        "other"
+      ]
+    },
+    "status": {
+      "enum": [
+        "PASS",
+        "FAIL",
+        "BLOCKED",
+        "PARTIAL"
+      ]
+    },
+    "captured_at_utc": {
+      "type": "string"
+    },
+    "covert_build_identity": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "model_artifact_identity": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "artifacts": {
+      "type": "array"
+    },
+    "failures": {
+      "type": "array"
+    },
+    "verification": {
+      "type": "object"
+    },
+    "owner_acceptance": {
+      "const": false
+    }
+  },
+  "additionalProperties": true
+}

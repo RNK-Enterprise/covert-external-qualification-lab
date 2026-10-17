@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "node_id": "phoenix",
+  "status": "REPORTED_UNVERIFIED",
+  "reported_profile": {
+    "os": "Ubuntu 24.04.5",
+    "cpu": "AMD Ryzen 7 5825U",
+    "cores": "8 cores / 16 threads",
+    "usable_ram_gib": 27,
+    "gpu": "AMD Radeon Barcelo integrated",
+    "vram": "shared",
+    "free_nvme_gib_approx": 70,
+    "virtualization": "AMD-V / KVM",
+    "runtimes": "Ollama/no models; Python/Hugging Face; substantial cache reported"
+  },
+  "observed_profile": null,
+  "discrepancy_status": "NOT_YET_INVENTORIED"
+}

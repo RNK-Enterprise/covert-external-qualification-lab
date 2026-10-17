@@ -1,0 +1,15 @@
+{
+  "mission_id": "q0-phoenix-inventory",
+  "status": "IMPLEMENTED",
+  "phase": "Q0_RUNNER_TEST",
+  "node_id": "phoenix",
+  "network_access": false,
+  "model_execution": false,
+  "steps": [
+    "machine inventory",
+    "software inventory",
+    "cache inventory",
+    "review differences",
+    "verify/bundle"
+  ]
+}

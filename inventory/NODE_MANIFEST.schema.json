@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Node manifest",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "run_id",
+    "node_id",
+    "captured_at_utc",
+    "reported_profile",
+    "observed_profile",
+    "comparison_status"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "run_id": {
+      "type": "string"
+    },
+    "node_id": {
+      "enum": [
+        "phoenix",
+        "atlas"
+      ]
+    },
+    "captured_at_utc": {
+      "type": "string"
+    },
+    "reported_profile": {
+      "type": "object"
+    },
+    "observed_profile": {
+      "type": "object"
+    },
+    "comparison_status": {
+      "enum": [
+        "MATCH_REPORTED_CORE",
+        "REVIEW_REQUIRED",
+        "UNKNOWN"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

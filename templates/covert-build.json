@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "status": "TEMPLATE",
+  "product": "Covert",
+  "release_id": null,
+  "source_commit": null,
+  "package_sha256": null,
+  "signature_status": "UNKNOWN",
+  "provenance_ref": null,
+  "external_package_disclosure_review": null,
+  "contained_source_inventory": null,
+  "runtime_identity": null,
+  "limitations": []
+}

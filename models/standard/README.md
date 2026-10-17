@@ -1,0 +1,2 @@
+# Standard Pack — TEMPLATE
+Targets: existing Qwen 4B/8B, selected 7B/8B coding, selected 12B/14B quantized if admitted. Exact IDs, artifacts, hashes, tokenizer/template, licenses and runtime pending inventory/research. No weights.

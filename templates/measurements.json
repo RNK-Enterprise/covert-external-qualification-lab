@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "status": "NOT_RUN",
+  "ttft_ms": null,
+  "tokens_per_second": null,
+  "input_tokens": null,
+  "output_tokens": null,
+  "cpu_utilization": null,
+  "ram_bytes": null,
+  "gpu_utilization": null,
+  "vram_bytes": null,
+  "temperature_c": null,
+  "storage_free_bytes": null,
+  "elapsed_ms": null,
+  "unavailable_fields": []
+}

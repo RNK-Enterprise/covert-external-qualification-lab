@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.0",
+  "status": "FAMILIES_ONLY_EXACT_ARTIFACTS_PENDING",
+  "candidates": [
+    {
+      "candidate_family": "existing Qwen 4B/8B",
+      "exact_model_id": null,
+      "source": null,
+      "revision": null,
+      "artifact_sha256": null,
+      "status": "PENDING_INVENTORY_AND_ARTIFACT_RESEARCH"
+    },
+    {
+      "candidate_family": "selected 7B/8B coding",
+      "exact_model_id": null,
+      "source": null,
+      "revision": null,
+      "artifact_sha256": null,
+      "status": "PENDING_INVENTORY_AND_ARTIFACT_RESEARCH"
+    },
+    {
+      "candidate_family": "selected 12B/14B quantized",
+      "exact_model_id": null,
+      "source": null,
+      "revision": null,
+      "artifact_sha256": null,
+      "status": "PENDING_INVENTORY_AND_ARTIFACT_RESEARCH"
+    },
+    {
+      "candidate_family": "North Mini Code",
+      "exact_model_id": null,
+      "source": null,
+      "revision": null,
+      "artifact_sha256": null,
+      "status": "PENDING_INVENTORY_AND_ARTIFACT_RESEARCH"
+    },
+    {
+      "candidate_family": "DeepSeek Coder Lite",
+      "exact_model_id": null,
+      "source": null,
+      "revision": null,
+      "artifact_sha256": null,
+      "status": "PENDING_INVENTORY_AND_ARTIFACT_RESEARCH"
+    },
+    {
+      "candidate_family": "larger Qwen coding",
+      "exact_model_id": null,
+      "source": null,
+      "revision": null,
+      "artifact_sha256": null,
+      "status": "PENDING_INVENTORY_AND_ARTIFACT_RESEARCH"
+    },
+    {
+      "candidate_family": "GLM",
+      "exact_model_id": null,
+      "source": null,
+      "revision": null,
+      "artifact_sha256": null,
+      "status": "PENDING_INVENTORY_AND_ARTIFACT_RESEARCH"
+    },
+    {
+      "candidate_family": "MiniMax",
+      "exact_model_id": null,
+      "source": null,
+      "revision": null,
+      "artifact_sha256": null,
+      "status": "PENDING_INVENTORY_AND_ARTIFACT_RESEARCH"
+    },
+    {
+      "candidate_family": "additional local coding candidates",
+      "exact_model_id": null,
+      "source": null,
+      "revision": null,
+      "artifact_sha256": null,
+      "status": "PENDING_INVENTORY_AND_ARTIFACT_RESEARCH"
+    },
+    {
+      "candidate_family": "owner DeepSeek V4 Pro–Qwen 3.5 derivative",
+      "exact_model_id": null,
+      "source": null,
+      "revision": null,
+      "artifact_sha256": null,
+      "status": "OWNER_ARTIFACT_TRANSFER_NOT_AUTHORIZED"
+    }
+  ],
+  "required_identity": [
+    "model_id",
+    "source",
+    "revision",
+    "artifact",
+    "sha256",
+    "architecture",
+    "parameters",
+    "quantization",
+    "tokenizer",
+    "template",
+    "context",
+    "runtime",
+    "hardware",
+    "license",
+    "battery",
+    "scorer",
+    "limitations"
+  ]
+}

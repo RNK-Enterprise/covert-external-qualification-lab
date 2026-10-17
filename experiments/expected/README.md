@@ -1,0 +1,1 @@
+Lock expected results before inference. Never tune after outcomes. Q0 verifies inventory structure and hashes only.

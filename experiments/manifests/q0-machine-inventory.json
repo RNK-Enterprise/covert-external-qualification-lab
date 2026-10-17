@@ -1,0 +1,11 @@
+{
+  "id": "Q0-MACHINE-INVENTORY",
+  "revision": "1.0",
+  "status": "IMPLEMENTED",
+  "network": "NONE",
+  "inference": "NONE",
+  "writes": [
+    "runs/q0 only"
+  ],
+  "verification": "scripts/verify-run"
+}

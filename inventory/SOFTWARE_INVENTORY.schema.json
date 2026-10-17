@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Software inventory",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "node_id",
+    "captured_at_utc",
+    "scope",
+    "python_executable",
+    "python_version",
+    "python_packages",
+    "tools",
+    "package_inventory_status",
+    "os_packages",
+    "limitations"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "node_id": {
+      "enum": [
+        "phoenix",
+        "atlas"
+      ]
+    },
+    "captured_at_utc": {
+      "type": "string"
+    },
+    "scope": {
+      "type": "string"
+    },
+    "python_executable": {
+      "type": "string"
+    },
+    "python_version": {
+      "type": "string"
+    },
+    "python_packages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "version"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "version": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "tools": {
+      "type": "object"
+    },
+    "package_inventory_status": {
+      "type": "string"
+    },
+    "os_packages": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}

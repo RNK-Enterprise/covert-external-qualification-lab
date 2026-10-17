@@ -1,0 +1,2 @@
+# Verifier
+Q0 IMPLEMENTED: structural checks, SHA256SUMS validation, exact artifact SHA utility, deterministic non-overwriting tar. Later mission scoring/Covert route verification is PLANNED. Model output never verifies itself.

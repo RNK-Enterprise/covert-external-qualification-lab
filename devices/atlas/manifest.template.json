@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "node_id": "atlas",
+  "status": "REPORTED_UNVERIFIED",
+  "reported_profile": {
+    "os": "Ubuntu 24.04.5",
+    "cpu": "Intel Core i5-10300H",
+    "cores": "4 cores / 8 threads",
+    "ram_gib": 31,
+    "gpu": "NVIDIA GTX 1650 Mobile",
+    "vram_gib": 4,
+    "secondary_gpu": "Intel UHD",
+    "free_nvme_gib_approx": 40,
+    "virtualization": "VT-x / KVM",
+    "runtimes": "NVIDIA driver; CUDA toolkit not observed; Python reported"
+  },
+  "observed_profile": null,
+  "discrepancy_status": "NOT_YET_INVENTORIED"
+}

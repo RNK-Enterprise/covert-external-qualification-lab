@@ -1,0 +1,13 @@
+{
+  "id": "Q1-PIPELINE-PROOF",
+  "revision": "TEMPLATE",
+  "status": "GATED",
+  "model": null,
+  "artifact_sha256": null,
+  "covert_build": null,
+  "battery": null,
+  "mission": null,
+  "verifier": null,
+  "egress": "UNRESOLVED",
+  "cleanup": null
+}

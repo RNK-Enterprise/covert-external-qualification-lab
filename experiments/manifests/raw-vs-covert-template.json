@@ -1,0 +1,27 @@
+{
+  "id": "PAIRED-RAW-VS-COVERT",
+  "revision": "TEMPLATE",
+  "status": "PLANNED",
+  "same_machine": true,
+  "same_artifact": true,
+  "same_task": true,
+  "same_context": true,
+  "same_budget": true,
+  "tool_affordance": "verify or label NON_EQUIVALENT",
+  "alternate_order": true,
+  "measure": [
+    "success",
+    "verification",
+    "regressions",
+    "constraints",
+    "unsupported claims",
+    "tool errors",
+    "recovery/retries",
+    "interventions",
+    "time",
+    "tokens",
+    "CPU/RAM/VRAM",
+    "TTFT/tok/s",
+    "evidence quality"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "verifier_id": "",
+  "revision": "",
+  "sha256": null,
+  "command": null,
+  "exit_code": null,
+  "result": "NOT_RUN",
+  "checks": [],
+  "independent_review_required": true
+}

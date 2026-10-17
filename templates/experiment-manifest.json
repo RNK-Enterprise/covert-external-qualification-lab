@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "status": "TEMPLATE",
+  "experiment_id": "",
+  "revision": "",
+  "phase": "",
+  "activation_id": null,
+  "node_id": "",
+  "model_artifact": null,
+  "covert_build": null,
+  "battery": null,
+  "scorer": null,
+  "mission": null,
+  "resource_admission": null,
+  "egress_policy": null,
+  "budgets": {
+    "wall_clock_seconds": null,
+    "tokens": null,
+    "memory_bytes": null
+  },
+  "allowed_effects": [],
+  "cleanup_contract": null
+}

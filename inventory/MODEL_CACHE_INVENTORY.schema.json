@@ -1,0 +1,143 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Model cache inventory",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "node_id",
+    "captured_at_utc",
+    "hashing",
+    "roots",
+    "models",
+    "limitations"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "node_id": {
+      "enum": [
+        "phoenix",
+        "atlas"
+      ]
+    },
+    "captured_at_utc": {
+      "type": "string"
+    },
+    "hashing": {
+      "enum": [
+        "COMPUTED",
+        "NOT_REQUESTED"
+      ]
+    },
+    "roots": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "path",
+          "status"
+        ],
+        "properties": {
+          "path": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "SCANNED",
+              "ABSENT",
+              "ERROR"
+            ]
+          },
+          "error_code": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "models": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "model_id",
+          "source",
+          "local_path",
+          "actual_bytes",
+          "complete_or_partial",
+          "format",
+          "architecture",
+          "parameter_class",
+          "quantization",
+          "revision",
+          "sha256",
+          "artifact_files",
+          "tokenizer",
+          "license",
+          "last_modified_utc",
+          "runtime_compatibility_status"
+        ],
+        "properties": {
+          "model_id": {
+            "type": "string"
+          },
+          "source": {
+            "type": "string"
+          },
+          "local_path": {
+            "type": "string"
+          },
+          "actual_bytes": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "complete_or_partial": {
+            "type": "string"
+          },
+          "format": {
+            "type": "array"
+          },
+          "architecture": {},
+          "parameter_class": {
+            "type": "string"
+          },
+          "quantization": {},
+          "revision": {
+            "type": "string"
+          },
+          "sha256": {
+            "type": [
+              "array",
+              "null"
+            ]
+          },
+          "artifact_files": {
+            "type": "array"
+          },
+          "tokenizer": {
+            "type": "string"
+          },
+          "license": {
+            "type": "string"
+          },
+          "last_modified_utc": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "runtime_compatibility_status": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}

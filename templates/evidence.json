@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "run_id": "",
+  "phase": "Q0",
+  "node_id": "",
+  "status": "PARTIAL",
+  "captured_at_utc": "",
+  "covert_build_identity": null,
+  "model_artifact_identity": null,
+  "artifacts": [],
+  "failures": [],
+  "verification": {
+    "verifier_id": "",
+    "result": "NOT_RUN",
+    "verifier_sha256": null
+  },
+  "owner_acceptance": false
+}

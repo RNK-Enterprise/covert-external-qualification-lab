@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "status": "TEMPLATE",
+  "model_id": null,
+  "source": null,
+  "revision": null,
+  "artifact": {
+    "path": null,
+    "bytes": null,
+    "sha256": null
+  },
+  "architecture": null,
+  "parameter_class": null,
+  "quantization": null,
+  "tokenizer_identity": null,
+  "chat_template_identity": null,
+  "context": null,
+  "runtime_backend": null,
+  "runtime_profile": null,
+  "ram_requirement_bytes": null,
+  "vram_requirement_bytes": null,
+  "storage_requirement_bytes": null,
+  "license": null,
+  "battery_revision": null,
+  "scorer_revision": null,
+  "hardware_profile": null,
+  "known_limitations": []
+}

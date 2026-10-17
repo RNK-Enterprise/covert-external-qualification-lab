@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "status": "PLANNED",
+  "mission_types": [
+    "seeded_bug_repair",
+    "bounded_feature",
+    "failing_build_diagnosis",
+    "multi_file_implementation",
+    "code_review_deliberately_flawed_change",
+    "recovery_after_tool_failure",
+    "fix_tests_without_deleting_tests",
+    "website_or_component_implementation",
+    "constrained_refactor",
+    "planning",
+    "tool_use",
+    "coding",
+    "agent_workflow"
+  ],
+  "requirements": [
+    "locked fixture/base hash",
+    "allowed effects",
+    "fixed budgets",
+    "independent deterministic verifier",
+    "failure retention",
+    "cleanup"
+  ],
+  "activation": "owner approval after Q1"
+}

@@ -1,0 +1,2 @@
+# COVERT_HEAVY_MODEL_QUALIFICATION_PACK — SPECIFICATION
+Reusable weight-free pack: exact manifests/sources, integrity, runtime/context, admission, batteries/missions, telemetry/evidence, failure/cleanup. Tiers CPU/RAM HEAVY, 16 GB VRAM, 24 GB VRAM, 32+ GB VRAM. Phoenix CPU/RAM; Atlas partial-offload compatibility. Neither is high-end GPU.
