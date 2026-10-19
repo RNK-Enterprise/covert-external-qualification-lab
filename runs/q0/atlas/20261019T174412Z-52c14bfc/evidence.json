@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261019T174412Z-52c14bfc",
+  "phase": "Q0",
+  "node_id": "atlas",
+  "status": "PARTIAL",
+  "captured_at_utc": "2026-10-19T17:44:12.693750Z",
+  "covert_build_identity": null,
+  "model_artifact_identity": null,
+  "artifacts": [],
+  "failures": [],
+  "verification": {
+    "verifier_id": "q0-structure-and-sha256/1.0",
+    "result": "NOT_RUN",
+    "verifier_sha256": null
+  },
+  "owner_acceptance": false
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "node_id": "atlas",
+  "captured_at_utc": "2026-10-19T17:44:33.258578Z",
+  "hashing": "NOT_REQUESTED",
+  "roots": [
+    {
+      "path": "/home/rnk/.cache/huggingface/hub",
+      "status": "SCANNED"
+    },
+    {
+      "path": "/home/rnk/.ollama/models",
+      "status": "ABSENT"
+    },
+    {
+      "path": "/home/rnk/.cache/ollama/models",
+      "status": "ABSENT"
+    },
+    {
+      "path": "/home/rnk/.lmstudio/models",
+      "status": "ABSENT"
+    },
+    {
+      "path": "/home/rnk/.cache/lm-studio/models",
+      "status": "ABSENT"
+    }
+  ],
+  "models": [
+    {
+      "model_id": "Cactus-Compute/needle3",
+      "source": "HUGGING_FACE_CACHE",
+      "local_path": "/home/rnk/.cache/huggingface/hub/models--Cactus-Compute--needle3/snapshots/3391a1007e7db31d2fe5c69c734bbe93a9c1ce79",
+      "actual_bytes": 242047978,
+      "complete_or_partial": "PARTIAL_OR_UNVERIFIED",
+      "format": [
+        "safetensors"
+      ],
+      "architecture": "needle",
+      "parameter_class": "UNKNOWN",
+      "quantization": "UNKNOWN",
+      "revision": "3391a1007e7db31d2fe5c69c734bbe93a9c1ce79",
+      "sha256": null,
+      "artifact_files": [
+        {
+          "path": "/home/rnk/.cache/huggingface/hub/models--Cactus-Compute--needle3/snapshots/3391a1007e7db31d2fe5c69c734bbe93a9c1ce79/checkpoints/needle3.safetensors",
+          "actual_bytes": 242047978,
+          "sha256": null,
+          "sha256_status": "NOT_REQUESTED",
+          "last_modified_utc": "2026-10-18T21:55:26.950806Z"
+        }
+      ],
+      "tokenizer": "NOT_FOUND",
+      "license": "UNKNOWN",
+      "last_modified_utc": "2026-10-18T21:55:26.950806Z",
+      "runtime_compatibility_status": "NOT_TESTED"
+    }
+  ],
+  "limitations": [
+    "Only known/default and explicitly supplied roots were scanned.",
+    "No download, load, or inference occurred.",
+    "UNKNOWN fields are not qualification.",
+    "Ollama manifests are cross-checked against their local blob files when --hash is used."
+  ]
+}

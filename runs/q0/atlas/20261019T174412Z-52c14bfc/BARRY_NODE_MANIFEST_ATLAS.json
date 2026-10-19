@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "run_id": "20261019T174412Z-52c14bfc",
+  "node_id": "atlas",
+  "captured_at_utc": "2026-10-19T17:44:12.693750Z",
+  "reported_profile": {
+    "os": "Ubuntu 24.04.5",
+    "cpu": "Intel Core i5-10300H",
+    "cores": "4 cores / 8 threads",
+    "ram_gib": 31,
+    "gpu": "NVIDIA GTX 1650 Mobile",
+    "vram_gib": 4,
+    "secondary_gpu": "Intel UHD",
+    "free_nvme_gib_approx": 40,
+    "virtualization": "VT-x / KVM",
+    "runtimes": "NVIDIA driver; CUDA toolkit not observed; Python reported"
+  },
+  "observed_profile": {
+    "os": {
+      "id": "ubuntu",
+      "name": "Ubuntu 24.04.5 LTS",
+      "version_id": "24.04",
+      "kernel": "6.8.0-142-generic",
+      "architecture": "x86_64"
+    },
+    "cpu": {
+      "model": "Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz",
+      "physical_cores": 4,
+      "logical_cpus": 8
+    },
+    "memory_total_bytes": 33414561792,
+    "display_devices": [
+      "00:02.0 VGA compatible controller [0300]: Intel Corporation CometLake-H GT2 [UHD Graphics] [8086:9bc4] (rev 05)",
+      "01:00.0 VGA compatible controller [0300]: NVIDIA Corporation TU117M [GeForce GTX 1650 Mobile / Max-Q] [10de:1f99] (rev a1)"
+    ],
+    "nvidia_smi": {
+      "status": "AVAILABLE",
+      "path": "/usr/bin/nvidia-smi",
+      "output": "NVIDIA GeForce GTX 1650, 4096 MiB, 610.57.04, 00000000:01:00.0",
+      "exit_code": 0
+    },
+    "storage": [
+      {
+        "path": "/",
+        "total_bytes": 248215199744,
+        "free_bytes": 81000443904
+      },
+      {
+        "path": "/home/rnk",
+        "total_bytes": 248215199744,
+        "free_bytes": 81000443904
+      }
+    ],
+    "kvm_device_present": true,
+    "identity_capture": "hostname, serial, MAC, environment, and process command lines omitted",
+    "component_comparisons": {
+      "os": "MATCH",
+      "cpu": "MATCH",
+      "memory": "WITHIN_REPORTED_RANGE",
+      "gpu": "MATCH"
+    }
+  },
+  "comparison_status": "MATCH_REPORTED_CORE",
+  "limitations": [
+    "Static inventory only; no model load or inference.",
+    "A core match compares reported OS/CPU/RAM only; GPU status is separate.",
+    "No network, credentials, personal identifiers, or time-series telemetry inspected."
+  ]
+}
