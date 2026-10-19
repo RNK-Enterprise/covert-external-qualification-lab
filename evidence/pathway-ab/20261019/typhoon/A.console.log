@@ -1,0 +1,38 @@
+{
+  "variant": "A_PY_FULL",
+  "model_load_s": 0.245238,
+  "overall_median_wall_s": 0.056104,
+  "overall_median_pathway_overhead_s": 3.6e-05,
+  "overall_median_inference_s": 0.05603,
+  "by_prompt": {
+    "0": {
+      "prompt": "What is photosynthesis?",
+      "median_wall_s": 0.047935,
+      "median_pathway_overhead_s": 2.7e-05,
+      "median_inference_s": 0.047871,
+      "median_rss_mb": 27.04,
+      "failures": 0,
+      "sample_output": "[]"
+    },
+    "1": {
+      "prompt": "Reply in English: what is 2+2?",
+      "median_wall_s": 0.056104,
+      "median_pathway_overhead_s": 3.6e-05,
+      "median_inference_s": 0.05603,
+      "median_rss_mb": 27.67,
+      "failures": 0,
+      "sample_output": "[]"
+    },
+    "2": {
+      "prompt": "In one short English sentence, who is R.N.K. as a name (not an acronym)?",
+      "median_wall_s": 0.087757,
+      "median_pathway_overhead_s": 5.9e-05,
+      "median_inference_s": 0.087659,
+      "median_rss_mb": 27.67,
+      "failures": 0,
+      "sample_output": "[]"
+    }
+  },
+  "log_path": "/home/ubuntu/covert-lab/runs/typhoon-A-pyfull-20261019T180404Z.jsonl",
+  "n_measured": 15
+}

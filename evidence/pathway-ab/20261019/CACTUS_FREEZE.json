@@ -1,0 +1,60 @@
+{
+  "freeze_id": "cactus-needle3-20261019T1751Z",
+  "captured_at_america_new_york": "2026-10-19T13:51:00-04:00",
+  "role": "control_model_for_language_pathway_AB",
+  "model": {
+    "name_or_path": "Cactus-Compute/needle3",
+    "model_type": "needle",
+    "architectures": ["NeedleForToolCalling"],
+    "engine_version": "3.1.0",
+    "runtime_package_hint": "cactus-needle / needle Python; format .cact",
+    "total_parameters": 121021910,
+    "quantization": {
+      "method": "cactus-quants",
+      "scheme": "embedding=4,mhc=4,default=2",
+      "group_size": 128,
+      "kv_cache_bits": 8,
+      "activation_bits": 8
+    },
+    "context": {
+      "max_position_embeddings": 8192,
+      "sliding_window": 1024,
+      "kv_window": 256
+    },
+    "sampling_defaults_for_AB": {
+      "stateless": true,
+      "auto_date": false,
+      "max_new_tokens": 128,
+      "note": "Frozen for A/B; do not retune mid-battery"
+    },
+    "prompt_set": [
+      "What is photosynthesis?",
+      "Reply in English: what is 2+2?",
+      "In one short English sentence, who is R.N.K. as a name (not an acronym)?"
+    ],
+    "output_token_limit": 128,
+    "backend": "cactus .cact self-contained C++/WASM needle runtime",
+    "excluded_from_baseline": [
+      "needle-adapt.cact",
+      "needle-adapt.v1.cact",
+      "needle-adapt.v2.cact",
+      "adapt adapters/safetensors"
+    ]
+  },
+  "artifacts": {
+    "needle3_cact_sha256": "c9d915eca282ed42d1a09b143b592adb4cc6744ffe2d294adf5cfc5548170c38",
+    "needle3_cact_bytes": 35335380,
+    "config_json_sha256": "d65e8e076d42b26ed473313e4890dfd8397274a238fd6c1715fff539b464c04e",
+    "config_json_bytes": 1273,
+    "atlas_cache_paths": {
+      "cact": "/home/rnk/.cache/cactus-needle/v3/3.3.2/needle3.cact",
+      "hf_snapshot": "/home/rnk/.cache/huggingface/hub/models--Cactus-Compute--needle3/snapshots/3391a1007e7db31d2fe5c69c734bbe93a9c1ce79/",
+      "config_blob": "ae7e4365274bf396728f1dc35f3892038f9475ea"
+    },
+    "phoenix_freeze_paths": {
+      "cact": "/home/odinn/lab/cactus-freeze/model/needle3.cact",
+      "config": "/home/odinn/lab/cactus-freeze/model/config.json"
+    }
+  },
+  "brain_policy": "Cerebrum brain stays on Cerebrum host; NOT copied to OCI"
+}

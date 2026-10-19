@@ -1,0 +1,40 @@
+WEIGHTS c9d915eca282ed42d1a09b143b592adb4cc6744ffe2d294adf5cfc5548170c38
+{
+  "variant": "B_JS_SKELETON",
+  "model_load_s": 0.268327,
+  "overall_median_wall_s": 0.201076,
+  "overall_median_pathway_overhead_s": 0.000029,
+  "overall_median_inference_s": 0.20101,
+  "by_prompt": {
+    "0": {
+      "prompt": "What is photosynthesis?",
+      "median_wall_s": 0.169919,
+      "median_pathway_overhead_s": 0.000028,
+      "median_inference_s": 0.169811,
+      "median_rss_mb": 259.09,
+      "failures": 0,
+      "sample_output": "[]"
+    },
+    "1": {
+      "prompt": "Reply in English: what is 2+2?",
+      "median_wall_s": 0.201076,
+      "median_pathway_overhead_s": 0.000031,
+      "median_inference_s": 0.20101,
+      "median_rss_mb": 259.09,
+      "failures": 0,
+      "sample_output": "[]"
+    },
+    "2": {
+      "prompt": "In one short English sentence, who is R.N.K. as a name (not an acronym)?",
+      "median_wall_s": 0.349743,
+      "median_pathway_overhead_s": 0.000019,
+      "median_inference_s": 0.349696,
+      "median_rss_mb": 259.09,
+      "failures": 0,
+      "sample_output": "[]"
+    }
+  },
+  "log_path": "/home/ubuntu/covert-lab/runs/typhoon-B-jsskeleton-20261019T180705Z.jsonl",
+  "n_measured": 15
+}
+EXIT=0

@@ -1,0 +1,38 @@
+{
+  "variant": "B_JS_SKELETON",
+  "model_load_s": 0.228222,
+  "overall_median_wall_s": 0.402025,
+  "overall_median_pathway_overhead_s": 0.000026,
+  "overall_median_inference_s": 0.401968,
+  "by_prompt": {
+    "0": {
+      "prompt": "What is photosynthesis?",
+      "median_wall_s": 0.206322,
+      "median_pathway_overhead_s": 0.00003,
+      "median_inference_s": 0.206205,
+      "median_rss_mb": 220.71,
+      "failures": 0,
+      "sample_output": "[]"
+    },
+    "1": {
+      "prompt": "Reply in English: what is 2+2?",
+      "median_wall_s": 0.232552,
+      "median_pathway_overhead_s": 0.000026,
+      "median_inference_s": 0.232497,
+      "median_rss_mb": 276.96,
+      "failures": 0,
+      "sample_output": "[]"
+    },
+    "2": {
+      "prompt": "In one short English sentence, who is R.N.K. as a name (not an acronym)?",
+      "median_wall_s": 0.407059,
+      "median_pathway_overhead_s": 0.000019,
+      "median_inference_s": 0.407017,
+      "median_rss_mb": 276.96,
+      "failures": 0,
+      "sample_output": "[]"
+    }
+  },
+  "log_path": "/home/ubuntu/covert-lab/runs/typhoon-B-jsskeleton-20261019T180704Z.jsonl",
+  "n_measured": 15
+}

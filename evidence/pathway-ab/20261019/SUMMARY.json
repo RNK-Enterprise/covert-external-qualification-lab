@@ -1,0 +1,96 @@
+{
+  "captured_at_america_new_york": "2026-10-19T14:07:00-04:00",
+  "freeze": {
+    "freeze_id": "cactus-needle3-20261019T1751Z",
+    "needle3_cact_sha256": "c9d915eca282ed42d1a09b143b592adb4cc6744ffe2d294adf5cfc5548170c38",
+    "config_json_sha256": "d65e8e076d42b26ed473313e4890dfd8397274a238fd6c1715fff539b464c04e",
+    "repo_file": "inventory/fleet/CACTUS_FREEZE.json",
+    "match": "repo freeze == phoenix freeze == typhoon on-disk hashes"
+  },
+  "copy_verification": {
+    "nodes": [
+      "typhoon",
+      "valkyrie",
+      "orion",
+      "domyngo",
+      "vidalyia",
+      "onyx",
+      "nebula"
+    ],
+    "dest": "~/pipeline-stage/",
+    "size": "253M each",
+    "KEYFILE_SHA256": "36/36 ok on all 7",
+    "ENGLISHMAN_js_index": "c69414c6582494b7fb19b7c827a819a2d1dbecb897dbe90e50829c36e78dc18e"
+  },
+  "typhoon_medians": {
+    "A_PY_FULL": {
+      "overall_median_wall_s": 0.056104,
+      "overall_median_inference_s": 0.05603,
+      "overall_median_pathway_overhead_s": 3.6e-05,
+      "model_load_s": 0.245238
+    },
+    "B_JS_SKELETON": {
+      "overall_median_wall_s": 0.405792,
+      "overall_median_inference_s": 0.405751,
+      "overall_median_pathway_overhead_s": 2.5e-05,
+      "model_load_s": 0.234199
+    },
+    "C_JS_FULL": {
+      "overall_median_wall_s": 0.399755,
+      "overall_median_inference_s": 0.399687,
+      "overall_median_pathway_overhead_s": 5.7e-05,
+      "model_load_s": 0.229723
+    }
+  },
+  "variance_B_JS_SKELETON": {
+    "typhoon": {
+      "overall_median_wall_s": 0.402025,
+      "overall_median_inference_s": 0.401968,
+      "model_load_s": 0.228222
+    },
+    "valkyrie": {
+      "overall_median_wall_s": 0.399222,
+      "overall_median_inference_s": 0.399162,
+      "model_load_s": 0.260252
+    },
+    "orion": {
+      "overall_median_wall_s": 0.200884,
+      "overall_median_inference_s": 0.200815,
+      "model_load_s": 0.335486
+    },
+    "domyngo": {
+      "overall_median_wall_s": 0.200727,
+      "overall_median_inference_s": 0.200654,
+      "model_load_s": 0.353345
+    },
+    "vidalyia": {
+      "overall_median_wall_s": 0.201076,
+      "overall_median_inference_s": 0.20101,
+      "model_load_s": 0.268327
+    },
+    "onyx": {
+      "overall_median_wall_s": 0.199432,
+      "overall_median_inference_s": 0.199375,
+      "model_load_s": 0.468435
+    },
+    "nebula": {
+      "overall_median_wall_s": 0.200721,
+      "overall_median_inference_s": 0.200654,
+      "model_load_s": 0.291938
+    }
+  },
+  "variance_stats": {
+    "wall_median_of_node_medians": 0.200884,
+    "wall_min": 0.199432,
+    "wall_max": 0.402025,
+    "wall_stdev": 0.09038030864821685,
+    "inference_median_of_node_medians": 0.200815
+  },
+  "notes": [
+    "Needle3 is a tool-calling model; tools={} yields function_calls=[] with reasoning 'no tools declared' \u2014 sample_output [] is expected for this control pin.",
+    "A uses Python needle 3.2.8 + tongue lossless roundtrip; B imports JS seat indexes only; C uses tongueTokenize/tongueJoin like A.",
+    "Brain (Cerebrum) not copied; cerebrum-relay/hunter-crawl/axyum-camofox/shelf untouched; Atlas seats not stopped.",
+    "Q0 PR #1 not recreated; evidence under evidence/pathway-ab/20261019/",
+    "Node runtime for JS: v20.20.2 (package engines ask >=22.18; cactus-needle 0.3.0 ran successfully)."
+  ]
+}
